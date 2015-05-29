@@ -1,0 +1,148 @@
+div.pn-pp {
+  background-color: #36ef50;
+}
+div.pn-p {
+  background-color: #96ef9b;
+}
+div.pn-pn {
+  background-color: #66b4ef;
+}
+.holster {
+  font-size: 1.5em;
+  opacity: 1.0;
+  -webkit-transition: all 4s ease-out 0s;
+  -moz-transition: all 4s ease-out 0s;
+  -ms-transition: all 4s ease-out 0s;
+  -o-transition: all 4s ease-out 0s;
+  transition: all 4s ease-out 0s;
+}
+.holster:hover {
+  opacity: 0.5;
+}
+.questions {
+  font-size: 1.25em;
+}
+.form-group > label {
+  /*display: none;*/
+}
+.student-header > div {
+  height: 33px;
+  background-color: #056405;
+  border: #0c0c0c solid 1px;
+}
+.student-header > div > h2 {
+  margin: auto auto;
+  color: #c0c0c0;
+}
+.questionSections {
+  border: 1px solid #a5040c;
+  margin: 0 auto;
+}
+.questionSections > li {
+  background-color: #f5fe9e;
+  list-style: none;
+}
+.questionSections > li > button {
+  font-size: 1.25em;
+  padding: 10px 5px;
+  text-align: left;
+  border: none;
+  width: 100%;
+  border-radius: 2px;
+}
+.questionSections > li > button:hover {
+  background-color: #18b5cb;
+}
+#leftwing {
+  background-color: #cccccc;
+}
+#rightwing {
+  background-color: #b3d4fc;
+}
+.thermostat {
+  display: none;
+  width: 20px;
+  align-content: center;
+}
+.thermostat > .pos1 {
+  display: inline-block;
+}
+#blanker {
+  position: relative;
+  background-color: #cccccc;
+  opacity: 0.8;
+  top: 0px;
+  height: 20px;
+  width: 50px;
+}
+.thermostat-inner {
+  /*position: relative;*/
+  /*display: inline-block;*/
+  align-content: center;
+  background-color: #FFFFFF;
+  border: #000000 1px solid;
+  height: 160px;
+  width: 20px;
+}
+.red {
+  position: relative;
+  left: 5px;
+  width: 20px;
+}
+.blue {
+  position: relative;
+  left: 5px;
+  width: 20px;
+}
+.green {
+  position: relative;
+  left: 5px;
+  width: 20px;
+}
+.thermostat-inner > .red.pos3 {
+  height: 20px;
+  background-color: #a5040c;
+  opacity: 1.0;
+}
+.thermostat-inner > .red.pos2 {
+  height: 20px;
+  background-color: #a5040c;
+  opacity: 0.75;
+}
+.thermostat-inner > .red.pos1 {
+  height: 20px;
+  background-color: #a5040c;
+  opacity: 0.45;
+}
+.thermostat-inner > .blue.pos3 {
+  height: 20px;
+  background-color: #141ab2;
+  opacity: 0.45;
+}
+.thermostat-inner > .blue.pos2 {
+  height: 20px;
+  background-color: #141ab2;
+  opacity: 0.75;
+}
+.thermostat-inner > .blue.pos1 {
+  height: 20px;
+  background-color: #141ab2;
+  opacity: 1.0;
+}
+.thermostat-inner > .green.pos3 {
+  height: 20px;
+  background-color: #056405;
+  opacity: 1.0;
+}
+.thermostat-inner > .green.pos2 {
+  height: 20px;
+  background-color: #056405;
+  opacity: 0.75;
+}
+.green.pos1 {
+  height: 20px;
+  width: 20px;
+  background-color: #056405;
+  opacity: 0.45;
+  border-radius: 50px;
+}
